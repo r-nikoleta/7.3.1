@@ -1,0 +1,161 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+body {
+    background-image: url("visual/vincent-maufay.jpg");
+    overflow: hidden;    
+    background-size: cover;
+}
+
+@font-face {
+    font-family: Gilroy Light;
+    src: url(fonts/Gilroy/Gilroy-Light.otf);
+    font-style: normal;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: Gilroy ExtraBold;
+    font-weight: bolder;
+    src: url(fonts/Gilroy/Gilroy-ExtraBold.otf);
+    font-style: normal;
+    font-weight: 800;
+}
+
+a {
+    text-decoration: none;
+    color: #dcdcdc;
+}
+
+/* index.html - Nav*/
+
+.index-nav-ul {
+    margin: 0;
+    padding-left: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.index-nav-li {
+    padding: 20px;
+    display: inline;
+
+    font-family: 'Gilroy Light', serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+/* index.html - Telo*/
+
+section {
+    margin: 20px;
+    padding: 20px;
+
+    background-size: contain;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;    
+}
+
+article {
+    margin-top: 60px;
+    min-width: 1114px;
+    min-height: 600px; 
+    border-radius: 10px 10px 10px 10px;   
+
+    background-image: url("visual/esosm2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0px 2px 18px 0px rgba(0,0,0,0.3);
+
+}
+
+h2 {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+
+    font-family: 'Gilroy ExtraBold', serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 70px;
+    color: #d76344;
+    text-shadow: 4px 4px 6px #9b9b9b;
+}
+
+p {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+
+    font-family: 'Gilroy Light', serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #00000073;
+    text-shadow: 4px 4px 6px #9b9b9b;
+}
+
+/* index.html - Button*/
+
+#redirect {
+    margin: 20px;
+    padding: 20px;
+
+    width: 70px;
+    height: 70px;
+
+    position: relative;
+    left: 20%;
+
+    border-radius: 50%;
+    border: none;
+
+    background-color: #abd2d9;
+    box-shadow: 0px 2px 18px 0px #9b9b9b;
+
+    font-family: 'Gilroy Light', serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #00000073;
+    text-shadow: 4px 4px 6px #9b9b9b;
+}
+
+#redirect:hover {
+    background-color: #dcdcdc;
+    color: #abd2d9;
+}
+
+/* esosm.html - Header*/
+
+.movie {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+
+    font-family: 'Gilroy ExtraBold', serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 90px;
+
+    color: #dcdcdc;
+    text-shadow: 4px 4px 6px #2e2e2e;
+    text-align: center;
+}
