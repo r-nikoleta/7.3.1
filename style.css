@@ -12,7 +12,7 @@ body {
 
 @font-face {
     font-family: Gilroy Light;
-    src: url(fonts/Gilroy/Gilroy-Light.otf);
+    src: url(Gilroy-Light.otf);
     font-style: normal;
     font-weight: 300;
 }
@@ -20,7 +20,7 @@ body {
 @font-face {
     font-family: Gilroy ExtraBold;
     font-weight: bolder;
-    src: url(fonts/Gilroy/Gilroy-ExtraBold.otf);
+    src: url(Gilroy-ExtraBold.otf);
     font-style: normal;
     font-weight: 800;
 }
